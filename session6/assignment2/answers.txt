@@ -1,0 +1,18 @@
+Specificity
+Purple because ID is stronger.
+
+Source Order
+Orange when orange is last.
+Green when green is last.
+Purple when ID is enabled.
+
+Inheritance
+First paragraph: teal
+Second paragraph: #374151
+The second paragraph gets its color from the parent.
+
+Hover
+The link becomes blue.
+
+Focus-visible
+The link becomes red when using Tab.
