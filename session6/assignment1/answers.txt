@@ -1,0 +1,7 @@
+
+index.html: styles.css
+courses.html: ../styles.css
+
+.course-card[data-status="full"] .status
+
+It selects the status text of the full course and makes its background gray.

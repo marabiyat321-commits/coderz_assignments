@@ -1,0 +1,41 @@
+
+HTML
+Problem
+h1 had its own color.
+Fix
+Removed the inline style.
+Result
+h1 uses --brand.
+
+Background
+Problem
+Missing dot before course-card.
+Fix
+Added the dot.
+Result
+Card becomes light blue.
+
+Font Size
+Problem
+h2 was 30px.
+Fix
+Changed em to rem.
+Before
+30px
+After
+24px
+
+Brand Color
+Changed --brand to red.
+Both headings became red.
+Changed it back.
+
+Other Fixes
+Only the first paragraph is yellow.
+Added a dot before the title.
+
+Link
+Hover
+Link turns purple.
+Tab
+Orange outline appears.
