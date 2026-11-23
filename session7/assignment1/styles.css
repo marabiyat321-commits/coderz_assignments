@@ -1,0 +1,55 @@
+
+
+.card {
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    margin: 100px auto;
+    border: 2px solid #12546C;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(18, 84, 108, 0.15);
+    overflow-wrap: break-word;
+}
+
+.box {
+    background-color: #E5F7E8;
+    color: #237A36;
+    padding: 6px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0;
+}
+
+h1 {
+    color: #12546C;
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button1 {
+    background-color: #12546C;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.button2 {
+    background-color: white;
+    color: #12546C;
+    padding: 8px 15px;
+    border: 2px solid #12546C;
+    border-radius: 5px;
+}
+
+.note {
+    margin-top: 0;
+}
