@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    background-color: #F1F5F9;
+    color: #0F172A;
+    overflow-wrap: anywhere;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    max-width: calc(100% - 20px);
+    margin: 30px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.container > h1 {
+    font-size: 25px;
+    margin: 10px 0 5px;
+}
+
+.container > p {
+    color: #64748B;
+    font-size: 15px;
+    margin: 5px 0 20px;
+}
+
+.meeting {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.meeting > h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.meeting > p {
+    color: #64748B;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.week {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.first {
+    border-right: 5px solid #0369A1;
+}
+
+.second {
+    border-right: 5px solid #15803D;
+}
+
+.first > .week {
+    background-color: #E0F2FE;
+    color: #0369A1;
+}
+
+
+
+.second > .week {
+    background-color: #DCFCE7;
+    color: #15803D;
+}
+
+.meeting > button {
+    padding: 5px 15px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first > button {
+    background-color: #0369A1;
+}
+
+.second > button {
+    background-color: #15803D;
+}
