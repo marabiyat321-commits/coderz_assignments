@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+    background-color: rgb(245, 248, 247);
+    color: rgb(106, 106, 100);
+    padding: 30px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(117, 215, 225);
+    border: 1px solid rgb(203, 189, 189);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+nav h2 {
+  
+    font-size: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+nav div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header {
+    text-align: center;
+    margin: 40px ;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1 1 250px;
+    border: 1px solid rgb(160, 175, 161);
+    background-color: rgb(116, 176, 189);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: right;
+}
+
+article p:first-child {
+    display: inline-block;
+    background-color: rgb(128, 219, 196);
+    padding: 5px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(40, 103, 121);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}

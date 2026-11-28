@@ -1,0 +1,95 @@
+body {
+    background-color: #F8FAFC;
+    font-family: Arial;
+    padding: 25px;
+}
+
+h1 {
+    color: #0F172A;
+    font-size: 40px;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.board > .column {
+    background-color: #F1F5F9;
+    border: 1px solid #CBD5E1;
+    border-radius: 15px;
+    padding: 20px;
+    width: 280px;
+    max-width: 100%;
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column > .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head > h2 {
+    color: #0F172A;
+    font-size: 25px;
+    margin: 0;
+}
+
+.head > .count {
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.column > .card {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 15px;
+    padding: 20px;
+    overflow-wrap: break-word;
+}
+
+.card > h3 {
+    color: #0F172A;
+    font-size: 25px;
+    margin: 0;
+}
+
+.card > p {
+    color: #64748B;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.card > .tag {
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.blue .count,
+.blue .tag {
+    background-color: #DBEAFE;
+    color: #1D4ED8;
+}
+
+.yellow .count,
+.yellow .tag {
+    background-color: #FEF3C7;
+    color: #92400E;
+}
+
+.green .count,
+.green .tag {
+    background-color: #DCFCE7;
+    color: #166534;
+}
