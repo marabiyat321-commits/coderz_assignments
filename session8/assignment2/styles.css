@@ -13,11 +13,13 @@ h1 {
 .board {
     background-color: #E2E8F0;
     border-radius: 20px;
-    height: 280px;
+    min-height: 280px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
 }
 
 .card {
@@ -27,11 +29,13 @@ h1 {
     width: 170px;
     padding: 25px;
     text-align: center;
+    overflow-wrap: break-word;
 }
 
 .card h2 {
     color: #2563EB;
     font-size: 55px;
+     margin: 0;
   
 }
 
